@@ -18,7 +18,7 @@ help_msg() {
 	echo "        -c|--changelog {pkg}		View CHANGELOG of specific package"
 	echo "        -d|--directory 			Change default directory for texmf"
 	echo "        -cd|--check-directory		Check path of the texmf-directory"
-	echo "        -a|--already				List already installed packages"
+	echo "        -a|--already			List already installed packages"
 	exit 1
 }
 
