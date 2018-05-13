@@ -158,7 +158,8 @@ while test $# -gt 0; do
 		fi
 		installed
 		exit;;
-	-u|--update)	update;;
+	-u|--update)	update
+							exit;;
 	-r|--remove)
 		pkg=$2
 		if grep -qw "$pkg" $directory/installed.list; then
