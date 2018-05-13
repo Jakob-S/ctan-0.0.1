@@ -6,7 +6,7 @@ clear
 mkdir $DIR
 echo "Create directory $DIR"
 cp ctan.sh $DIR
-echo "Copy ctan.sh to $DIR
+echo "Copy ctan.sh to $DIR"
 mkdir $DIR/tmp
 echo "Create directory $DIR/tmp"
 chown -R $USER:$USER $DIR
