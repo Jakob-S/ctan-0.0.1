@@ -21,7 +21,7 @@ echo "Create files in $DIR:"
 echo "	installed.list"
 echo "	packages.list"
 echo "	texmf.txt"
-echo "	new.txt
+echo "	new.txt"
 echo "True" > $DIR/new.txt
 echo "Define variables for first start."
 echo " "
