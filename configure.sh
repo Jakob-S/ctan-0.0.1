@@ -12,4 +12,4 @@ touch $DIR/packages.list
 touch $DIR/texmf.txt
 touch $DIR/new.txt
 echo "True" > $DIR/new.txt
-$DIR/ctan.sh
+$DIR/ctan.sh --update
